@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author todyn
- */
 public class Pedido {
-    int qnt;
-    String estado;
+    int idPedido;
+    String embalagem;
+    String status;
+    String dataPedido;
+
+    public Pedido(int idPedido, String embalagem, String dataPedido, String status) {
+        this.idPedido = idPedido;
+        this.embalagem = embalagem;
+        this.status = status;
+        this.dataPedido = dataPedido;
+    }
 }
